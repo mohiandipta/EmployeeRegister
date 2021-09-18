@@ -12,5 +12,7 @@ namespace EmployeeRegister.Models
         {
 
         }
+
+        public DbSet<EmployeeModel> Employees { get; set; }
     }
 }
